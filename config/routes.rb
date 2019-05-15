@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
 
-  resource :articles  #gives us new ariticle paths
+  resources :articles  #gives us new ariticle paths (create, edit, delete, index, show, new, and update)
 end
