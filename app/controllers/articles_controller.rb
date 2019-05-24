@@ -8,6 +8,7 @@ class ArticlesController < ApplicationController
         @article = Article.new
     end
     def create
+        byebug
         @article = Article.new(article_params)
         if @article.save
             
@@ -38,7 +39,7 @@ class ArticlesController < ApplicationController
     def destroy
         
         @article.destroy
-        flash[:notice] = "Article was succesfully deleted"
+        # flash[:notice] = "Article was succesfully deleted"
         redirect_to articles_path
     end
 
