@@ -1,2 +1,47 @@
-@import "bootstrap-sprockets";
+
 @import "bootstrap";
+
+#logo{
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.center{
+  text-align: center
+}
+
+.jumbotron{
+  background-image: asset-url('FFD300.jpeg')
+  
+}
+
+.jumbotron h1{
+
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
